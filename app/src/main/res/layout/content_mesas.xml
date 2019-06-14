@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/FONDOCB">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Seleccione la mesa:"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@id/btn_mesa1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/label"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa1" />
+
+    <Button
+        android:id="@id/btn_mesa2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_mesa1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa2" />
+
+    <Button
+        android:id="@id/btn_mesa3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_mesa2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa3" />
+
+    <Button
+        android:id="@id/btn_mesa4"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_mesa3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa4" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_mesa4"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/mesasm" />
+
+    <Button
+        android:id="@id/btn_mesa9"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn6"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa9" />
+
+    <Button
+        android:id="@id/btn_mesa10"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_mesa9"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa10" />
+
+    <Button
+        android:id="@id/btn_mesa5"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignTop="@id/btn_mesa2"
+        android:layout_marginRight="90dp"
+        android:layout_toLeftOf="@id/btn_mesa2"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa5" />
+
+    <Button
+        android:id="@id/btn_mesa6"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/btn_mesa5"
+        android:layout_alignTop="@+id/btn_mesa3"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa6" />
+
+    <Button
+        android:id="@id/btn_mesa7"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/btn_mesa9"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa7" />
+
+    <Button
+        android:id="@id/btn_mesa8"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignTop="@id/btn_mesa10"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/mesasm"
+        android:text="@string/btn_mesa8" />
+
+</RelativeLayout>

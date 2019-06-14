@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--login-->
+    <item name="et_usuario" type="id">
+
+    </item>
+    <item name="et_contra" type="id">
+
+    </item>
+    <item name="btn_ingresar" type="id">
+
+    </item>
+    <!--fin login-->
+
+    <!--mesas-->
+    <item name="btn_mesa1" type="id">
+
+    </item>
+    <item name="btn_mesa2" type="id">
+
+    </item>
+    <item name="btn_mesa3" type="id">
+
+    </item>
+    <item name="btn_mesa4" type="id">
+
+    </item>
+    <item name="btn_mesa5" type="id">
+
+    </item>
+    <item name="btn_mesa6" type="id">
+
+    </item>
+    <item name="btn_mesa7" type="id">
+    </item>
+    <item name="btn_mesa8" type="id">
+
+    </item>
+    <item name="btn_mesa9" type="id">
+
+    </item>
+    <item name="btn_mesa10" type="id">
+
+    </item>
+
+    <!--fin mesas-->
+
+    <!--opciones-->
+    <item name="btn_bebidas" type="id">
+        </item>
+    <item name="btn_guarniciones" type="id">
+
+    </item>
+    <item name="btn_pedido" type="id">
+
+    </item>
+
+    <!--fin opciones-->
+
+
+    <!--opcion plato-->
+
+    <item name="btn_listaplatos" type="id"></item>
+    <item name="lst_listaplatos" type="id"></item>
+    <item name="tv_nombrePlato" type="id"></item>
+    <item name="tv_descripcionPlato" type="id"></item>
+    <item name="tv_precio" type="id"></item>
+
+    <!--fin opcion plato-->
+
+    <item name="btn_dispo" type="id"></item>
+
+    <item name="lst_pedido" type="id">
+    </item>
+</resources>

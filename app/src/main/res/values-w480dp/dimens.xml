@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<dimen  name="activity_horizontal_margin">24sp</dimen>
+
+    <dimen name="et_size_standard">20sp</dimen>
+
+
+</resources>

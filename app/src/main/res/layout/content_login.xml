@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondologinvp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ariad.lacasadelbijao.controladores.Login"
+    tools:showIn="@layout/activity_login">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="176dp"
+        android:layout_above="@+id/et_usuario"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="98dp"
+        android:focusable="true"
+        app:srcCompat="@drawable/logoni" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="33dp"
+        android:layout_toStartOf="@+id/et_usuario"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:id="@id/et_usuario"
+        android:layout_width="240dp"
+        android:layout_height="62dp"
+        android:layout_above="@+id/et_contra"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/background_dark"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:text="@string/et_usuario"
+        android:textSize="@dimen/et_size_standard"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="47dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="165dp"
+        android:layout_toStartOf="@+id/et_contra"
+        app:srcCompat="@drawable/pass" />
+
+    <EditText
+        android:id="@id/et_contra"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btn_ingresar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="68dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/black"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:text="@string/et_contra"
+        android:textAlignment="center"
+        android:textSize="@dimen/et_size_standard"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+
+    <Button
+        android:id="@id/btn_ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/formatoboton"
+        android:text="@string/btn_ingresar"
+        android:textSize="@dimen/et_size_standard" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

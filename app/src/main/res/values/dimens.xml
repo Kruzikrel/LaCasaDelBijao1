@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="esquinas">10dp</dimen>
+    <dimen name="marg_interno">25dp</dimen>
+    <dimen name="marg_interno2">20dp</dimen>
+    <dimen name="marg_externo">90dp</dimen>
+
+    <dimen name="et_size_standard">15sp</dimen>
+    
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="marg_interno_botones">6dp</dimen>
+    <dimen name="esquinas_botones">2dp</dimen>
+
+</resources>
